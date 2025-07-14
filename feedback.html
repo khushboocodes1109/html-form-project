@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The form</title>
+</head>
+<body>
+    <h1>FORM</h1>
+    <form>
+        <form action="new.js">
+            <input type="text" placeholder="Enter your name please">
+            <br></br>
+            <input type="password" placeholder="Enter your password">
+            <h3>please choose your class</h3>
+            <label for="101">
+                <input type="radio" value="classx|" name="class" id="101">classx|
+                <input type="radio" value="classx||" name="class" id="102">classx||
+            </label>
+            <br></br>
+            <h3>please select your stream</h3>
+            <label for=" 101" >
+                <input type="radio" value="PCM" name="class" id="101">PCM
+                <input type="radio" value="PCB" name="class" id="102">PCB
+            </label>
+            <h3>Select your favorite subjects</h3>
+        <input type="checkbox" name="subjects" value="Physics">Physics<br>
+        <input type="checkbox" name="subjects" value="Chemistry">Chemistry<br>
+        <input type="checkbox" name="subjects" value="Biology">Biology<br>
+        <input type="checkbox" name="subjects" value="Maths">Maths<br><br>
+        <!-- Dropdown Menu -->
+        <h3>Select your city</h3>
+        <select name="city">
+            <option value="">--Choose one--</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Bhopal">Bhopal</option>
+        </select><br><br>
+
+        <!-- Date Picker -->
+        <h3>Select your date of birth</h3>
+        <input type="date" name="dob"><br><br>
+
+        <h3> please enter your valid email:</h3>
+        <input type="email" placeholder="Enter your email">
+        <br></br>
+
+        <input list="languages" name="language" placeholder="Choose a programming language">
+          <datalist id="languages">
+         <option value="Python">
+        <option value="JavaScript">
+        <option value="C++">
+        <option value="HTML">
+       </datalist>
+       <br></br>
+
+         <!-- Text Area -->
+        <h3>Write about yourself</h3>
+        <textarea rows="5" cols="40" placeholder="Write something here..."></textarea><br><br>
+
+        <h3> please rate your experience visting this site!!</h3>
+        <label for="range">Rate your experience:</label>
+        <input type="range" id="range" name="experience" min="1" max="10">
+        <br></br>
+
+        <fieldset>
+        <legend>Contact Info</legend>
+        <input type="text" placeholder="Phone number">
+        <input type="email" placeholder="Email address">
+       </fieldset>
+
+       <br></br>
+      <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    
+</form>   
+</body>
+</html>
